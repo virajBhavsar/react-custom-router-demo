@@ -1,0 +1,88 @@
+.bills {
+  overflow-y: scroll;
+}
+.bills::-webkit-scrollbar {
+  width: 10px;
+}
+.bills::-webkit-scrollbar-thumb {
+  background: #008cff;
+  border-radius: 5px;
+}
+.bills-type-btns {
+  width: 100%;
+}
+.bills-type-btns {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.credit-bills,
+.debit-bills,
+.all-bills {
+  width: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  margin: 0;
+  outline: none;
+}
+.bills-type-btns span {
+  text-align: center;
+}
+.bills-type-btn-active {
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px black solid;
+}
+.bills-nav {
+  background: #55b3ff;
+  height: 8vh;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.bills-nav h2 {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+}
+.bills-nav h2:hover {
+  color: #005eac;
+}
+.bills-nav h2:active {
+  color: white;
+}
+.bills-nav input {
+  border: none;
+  outline: none;
+  height: 70%;
+  /* margin: 0 25px; */
+  padding: 10px;
+  width: 30%;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+.bill {
+  background: #55b3ff;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.bill:hover {
+  background: rgb(99, 99, 99);
+  color: white;
+}
+.bill:active {
+  background: rgb(122, 122, 122);
+}
+.bill-list {
+  margin-top: 5px;
+}

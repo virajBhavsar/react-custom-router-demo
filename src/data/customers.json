@@ -1,0 +1,19 @@
+[
+    {
+        "firstName": "viraj",
+        "lastName": "bhavsar",
+        "streetSociety": "ss",
+        "cityVillage": "cv",
+        "district": "dist",
+        "State": "state",
+        "PhoneNo": "phoneNo"
+    },{
+        "firstName": "shivi",
+        "lastName": "bhavsar",
+        "streetSociety": "ss",
+        "cityVillage": "cv",
+        "district": "dist",
+        "State": "state",
+        "PhoneNo": "phoneNo"
+    }
+]

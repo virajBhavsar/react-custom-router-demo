@@ -1,0 +1,38 @@
+
+home -> {
+%    customer -> {
+        add customer
+        remove customer
+        edit customer details
+        view details ->{
+            bills
+            personal details
+        }
+    }
+
+%    party -> {
+        add party
+        remove party
+        edit party details
+        view party details ->{
+            bills
+            personal details
+        }
+    }
+
+%    products -> {
+        search
+        catagorys
+        last-opened
+    }
+
+%    credited bills->{
+        sort-btn
+        search
+    }
+
+%    debited bills -> {
+        sort-btn
+        search
+    }
+}

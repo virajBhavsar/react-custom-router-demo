@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* main container */
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-columns: 0.2fr 1fr;
+  grid-template-areas:
+    "box2 box1"
+    "box2 box3";
+  overflow: hidden;
+}
+
+/* box1 */
+
+.nav {
+  background: linear-gradient(90deg, transparent, #55b3ff);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(0, 0, 87);
+}
+.nav li {
+  cursor: pointer;
+  width: fit-content;
+  list-style: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  background: #55b3ff;
+  box-shadow: -5px 5px 10px black;
+  border: 2px black solid;
+}
+
+.nav li:hover {
+  background: black;
+  color: #55b3ff;
+}
+
+/* box2 */
+
+.side-nav {
+  grid-area: box2;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  box-shadow: -5px 0 15px #55b3ff;
+  margin-right: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 0;
+  overflow: hidden;
+  border-bottom: 2px black solid;
+}
+
+.profile .profile-pic {
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px rgb(0, 0, 0) solid;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.profile .profile-pic img {
+  width: 50px;
+}
+.profile h1 {
+  text-align: center;
+  padding: 10px;
+}
+.side-nav ul {
+  margin: 10px 5%;
+  list-style: none;
+}
+.side-nav ul li {
+  text-align: left;
+  margin: 15px 0;
+  font-size: 1.1rem;
+  width: 90%;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.side-nav ul li:hover {
+  box-shadow: -5px 5px 10px black;
+}
+
+.active-home {
+  background: rgb(52, 155, 214);
+  box-shadow: -5px 5px 10px black;
+  color: white;
+  text-shadow: -5px 5px 10px black;
+}
+
+/* box3 */
+
+.home {
+  grid-area: box3;
+  background: rgb(255, 255, 255);
+  color: black;
+}

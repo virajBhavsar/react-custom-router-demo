@@ -1,0 +1,70 @@
+.customers-form {
+  position: relative;
+  margin: 10px;
+  background: #55b3ff;
+  /* height: 80vh; */
+  padding-left: 10%;
+  display: flex;
+  justify-content: left;
+  width: 99%;
+  overflow-y: scroll;
+}
+.parameter-names,
+.form-fields {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 40%;
+}
+.parameter-names {
+  color: white;
+  height: 550px;
+}
+.form-fields {
+  width: 100%;
+}
+.customers-form input {
+  font-size: 1.2rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 2px;
+  width: 30%;
+}
+.customers-form .submit-btn,
+.make-bill {
+  cursor: pointer;
+  border: none;
+  background: rgb(39, 127, 243);
+  color: aliceblue;
+  font-size: 1.1rem;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.customers-form .submit-btn:hover,
+.make-bill:hover {
+  background: white;
+  color: black;
+}
+.make-bill {
+  margin-left: 100px;
+}
+.back-to-customers-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.back-to-customers-btn:hover {
+  background: #55b3ff;
+  color: white;
+  box-shadow: 0 0 8px black;
+}

@@ -1,0 +1,65 @@
+.customers {
+  overflow-y: scroll;
+}
+
+.customers::-webkit-scrollbar {
+  width: 10px;
+}
+.customers::-webkit-scrollbar-thumb {
+  background: #008cff;
+  border-radius: 5px;
+}
+.add-btn {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  background: #55b3ff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.add-btn:hover {
+  background: black;
+  color: #55b3ff;
+}
+.add-btn:active {
+  background: white;
+}
+.customers-nav {
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+  margin: 5px;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+.customers-nav input,
+.customers-nav select {
+  border: 2px black solid;
+  outline: none;
+  height: 6vh;
+  margin: 1vh 0;
+  border-radius: 50px;
+  width: 20%;
+  padding: 0 20px;
+  color: black;
+  font-size: 1.1rem;
+}
+.customers-nav .sort select {
+  margin-left: 5px;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+}
+.sort {
+  align-items: center;
+  display: flex;
+  width: 200px;
+}
+
+.mans-list {
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
